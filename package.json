@@ -1,0 +1,24 @@
+{
+  "name": "cruise-ships-gui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCheungTW/cruise-ships-gui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidCheungTW/cruise-ships-gui/issues"
+  },
+  "homepage": "https://github.com/DavidCheungTW/cruise-ships-gui#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-plugin-react": "^7.31.11",
+    "jest": "^29.3.1"
+  }
+}
