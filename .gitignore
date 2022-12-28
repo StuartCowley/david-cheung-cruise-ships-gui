@@ -5,3 +5,5 @@ node_modules/
 .prettierrc.json
 .DS_Store
 src/.DS_Store
+css/.DS_Store
+images/.DS_Store
