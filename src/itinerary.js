@@ -1,8 +1,7 @@
-
-(function exportItinerary() { 
+(function exportItinerary() {
   class Itinerary {
     constructor(portsArray) {
-        this.ports = portsArray;
+      this.ports = portsArray;
     }
   }
   if (typeof module !== 'undefined' && module.exports) {
@@ -10,4 +9,4 @@
   } else {
     window.Itinerary = Itinerary;
   }
-}());
+})();

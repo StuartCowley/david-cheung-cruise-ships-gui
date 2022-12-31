@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cruise Ships</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press Start 2P"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main>
-        <form>
-            <div>
-                <label>Add Port</label>
-                <br>
-                <input type="text" id="portName" name="portName" placeholder="Port Name">
-            </div>
-            <div>
-                <button>Add</button>
-            </div>
-        </form>
-        <div id="headUpDisplay"></div>
-        <div id="viewport">
-            <div id="ports"></div>
-            <div id="ship"></div>
-            <button id="sailbutton">Set Sail!</button>
+      <form>
+        <div>
+          <label>Add Port</label>
+          <br />
+          <input
+            type="text"
+            id="portName"
+            name="portName"
+            placeholder="Port Name"
+          />
         </div>
+        <div>
+          <button>Add</button>
+        </div>
+      </form>
+      <div id="headUpDisplay"></div>
+      <div id="viewport">
+        <div id="ports"></div>
+        <div id="ship"></div>
+        <button id="sailbutton">Set Sail!</button>
+      </div>
     </main>
     <script src="src/controller.js"></script>
     <script src="src/port.js"></script>
     <script src="src/itinerary.js"></script>
     <script src="src/ship.js"></script>
     <script src="src/external.js"></script>
-</body>
+  </body>
 </html>
